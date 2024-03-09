@@ -1,0 +1,30 @@
+
+.app{
+  
+  border:1px solid gray;
+  margin:40px auto;
+  padding: 25px 30px;
+  width:25em;
+}
+.to-do-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.to-do-container ul li {
+  width:min-content;
+  overflow-wrap: break-word;
+  font: 1em sans-serif;
+  list-style-type: "👉";
+}
+.done{
+  text-decoration:line-through;
+  cursor: pointer;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+}
+.remove{
+  cursor: pointer;
+}
